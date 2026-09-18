@@ -1,5 +1,5 @@
 import React from 'react'
-import { StickyNote, PenLine, GitBranch } from 'lucide-react'
+import { StickyNote, PenLine, GitBranch, ChevronLeft } from 'lucide-react'
 
 const TYPE_ICON = {
   sticky: StickyNote,
@@ -18,6 +18,9 @@ export default function TemplateCard({ template, onSelect }) {
       <span className="template-card__body">
         <span className="template-card__name">{template.name}</span>
         <span className="template-card__type">{template.nameEn}</span>
+      </span>
+      <span className="template-card__arrow">
+        <ChevronLeft size={18} />
       </span>
     </button>
   )

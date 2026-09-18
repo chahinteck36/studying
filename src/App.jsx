@@ -93,6 +93,7 @@ export default function App() {
         {view === 'home' && (
           <>
             <section className="hero">
+              <span className="hero__eyebrow">📓 دفتر ملاحظات دراسي رقمي</span>
               <h1 className="hero__title">ملاحظاتك الدراسية في مكان واحد</h1>
               <p className="hero__subtitle">اختر تخصصك، اختر قالبًا جاهزًا، وأدخل معلوماتك.</p>
             </section>
